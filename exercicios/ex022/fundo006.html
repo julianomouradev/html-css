@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;  */
 
+          /* SHORTHAND - Background
+          color > image > position > repeat > [size] > attachment
+           */
+
+           background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+           background-size: cover;
+           /* Quando for anotar sobre a shorthand no caderno dev, anotar que a propriedade background-size não funciona na shorthand, por isso tem que ser separada da shorthand */
         }
 
         main {
@@ -30,6 +38,7 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, dolor ipsa hic error illo deleniti fugit! Obcaecati sint earum, cupiditate, quo vitae nulla illum, delectus commodi harum similique temporibus. Inventore?
+    
         Quod ipsam quia sint laborum quas, deserunt recusandae temporibus nobis vel dignissimos tenetur natus hic ullam possimus distinctio provident tempore dicta ratione cumque qui. Illo velit enim exercitationem illum distinctio.
         Velit aliquam unde et, tempore alias accusamus nulla accusantium dignissimos odit magnam minima temporibus ab illum optio itaque. Repellat totam omnis, quisquam vel labore quas! Quasi sapiente tempore debitis perspiciatis!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, dolor ipsa hic error illo deleniti fugit! Obcaecati sint earum, cupiditate, quo vitae nulla illum, delectus commodi harum similique temporibus. Inventore?
