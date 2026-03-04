@@ -4,3 +4,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 /* SRIRACHA */
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+}
+
+:root {
+    --fonte01: arial, helvetica, sans-serif;
+    --fonte02: 'Passion One';
+    --fonte03: 'Sriracha';
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte02);
+    font-size: 67px;
+    font-variant: small-caps;
+    padding-top: 50px;
+     
+}
+
+header > p {
+    font-family: var(--fonte01);
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+
+header > p > #a-header {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header > p > #a-header:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte03);
+    
+}
+
+section > p {
+   padding-bottom: 2em;
+   font-size: 1.6em;
+}
+
+section > .normal {
+    font-size: 1.6em;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 250px;
+    height: 250px;
+}
+
+section > .imagem {
+   background-attachment: fixed;
+   text-align: left;
+   
+   
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    height: 400px;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: right center;
+}
