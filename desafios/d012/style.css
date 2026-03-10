@@ -101,3 +101,22 @@ section#img02 {
     background-image: url('imagens/background002.jpg');
     height: 480px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte01);
+    text-align: center;
+    padding: 10px;
+     font-size: 1.1em;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
