@@ -12,6 +12,12 @@
     font-style: normal;
 }
 
+:root {
+    --fonte01: arial, helvetica, sans-serif;
+    --fonte02: 'Passion One';
+    --fonte03: 'Sriracha';
+}
+
 * {
     margin: 0px;
     padding: 0px;
